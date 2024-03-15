@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Weather app</title>
+    <link rel="stylesheet" href="weather-app.css" />
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css" integrity="sha384-JcKb8q3iqJ61gNV9KGb8thSsNjpSL0n8PARn9HuZOnIxN0hoP+VmmDGMN5t9UJ0Z" crossorigin="anonymous" />
+</head>
+<body>
+    <div class="column">
+        <div class="row">
+            <div class="card">
+                <div class="search">
+                    <input type="text" placeholder="Enter your City Name..." spellcheck="false">
+                    <button><img src= "https://i.imgur.com/YSXvVQ3.png"></button>
+                </div>
+                <div class="error">
+                    <p>Invalid City Name!!</p>
+                </div>
+                <div class="weather">
+                    <img src="https://i.imgur.com/7B8ZajJ.png" class="weather-icon">
+                    <h1 class="temp">22°C</h1>
+                    <h2 class="city">New York</h2>
+                    <div class="details">
+                        <div class="col">
+                            <img src="https://i.imgur.com/M2KO9rP.png" >
+                            <div>
+                                <p class="humidity">50<span>%</span></p>
+                                <p style="font-size:13px">Humidity</p>
+                            </div>
+                        </div>
+                        <div class="col">
+                            <img src="https://i.imgur.com/VJa0sBr.png" >
+                            <div>
+                                <p class="wind">15 <span>km/h</span></p>
+                                <p style="font-size:13px">Wind Speed</p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+   <script src="weather-app.js"></script>
+</body>
+</html>
